@@ -20,6 +20,7 @@
     @include('layouts._header')
 
     <div class="container">
+        @include('layouts._message')
         {{--占位符，允许继承此页的子页面内容注入--}}
         @yield('content')
     </div>
